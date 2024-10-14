@@ -24,7 +24,7 @@ stalj@uek.krakow.pl
 
         \>\>\>
 
-1. In interactive mode, execute the following commands (enter a command and press Enter):
+2. In interactive mode, execute the following commands (enter a command and press Enter):
 
     1. 7 + 4
     1. (30 + 10) / 2
@@ -43,7 +43,7 @@ stalj@uek.krakow.pl
     1. Enter commands to calculate and print the area of ​​a triangle with dimensions a=5 and h=4.
     1. Enter commands to calculate and print the arithmetic mean of the numbers: 7, 12 and 31. Print the result with an accuracy of 2 decimal places.
 
-1. Script mode is used to write and execute program code from a file, instead of typing commands interactively. To write and run your program in script mode:
+3. Script mode is used to write and execute program code from a file, instead of typing commands interactively. To write and run your program in script mode:
 
     1. Use any text editor to write your program code (e.g. Windows Notepad).
     1. Save the file with a .py extension (for example: myprogram.py).
@@ -72,7 +72,7 @@ stalj@uek.krakow.pl
     print('Check on the Internet if your BMI is ok!!')
     ```
 
-1. To create computer programs, it is most convenient to use an integrated environment (IDE). This tool allows you to both create a program and run it. One of the popular tools is Microsoft Visual Studio Code (VS Code).
+4. To create computer programs, it is most convenient to use an integrated environment (IDE). This tool allows you to both create a program and run it. One of the popular tools is Microsoft Visual Studio Code (VS Code).
 
     The program below simulates five dice rolls. In VS Code, create and run the program. 
     
@@ -109,7 +109,7 @@ stalj@uek.krakow.pl
     * \>
     * \<=
 
-1. Count how many operators and arguments are included in each expression. Then, calculate values of the expressions. First, try to calculate every expression without using a computer or calculator. Then, check your results in interactive mode.
+2. Count how many operators and arguments are included in each expression. Then, calculate values of the expressions. First, try to calculate every expression without using a computer or calculator. Then, check your results in interactive mode.
 
     1. 3 * 2 + 1
     1. 5 + 10 * 5
@@ -118,7 +118,7 @@ stalj@uek.krakow.pl
     1. 1 + 2 % 3 ** 4 * 5
     1. True != False
 
-1. A data type in programming defines the kind of data that can be stored and manipulated within a program. It specifies the type of value and what operations can be performed on it. Different programming languages have different data types. In Python, the built-in data types that you can consider basic are the following:
+3. A data type in programming defines the kind of data that can be stored and manipulated within a program. It specifies the type of value and what operations can be performed on it. Different programming languages have different data types. In Python, the built-in data types that you can consider basic are the following:
 
     * Integer (int): Represents whole numbers (e.g., 1, -5, 100).
     * Float (float): Represents decimal numbers (e.g., 3.14, -0.99, 7.0).
@@ -163,7 +163,7 @@ stalj@uek.krakow.pl
     income_per_person = income / employees
     ```
 
-1. Below is a program that calculates the sum of two numbers. Modify the program to calculate the sum of three numbers. Notice the use of the function print(value1,value2,...), which allows the values to be printed on the monitor screen.
+2. Below is a program that calculates the sum of two numbers. Modify the program to calculate the sum of three numbers. Notice the use of the function print(value1,value2,...), which allows the values to be printed on the monitor screen.
 
     ```python
     ###
@@ -178,7 +178,7 @@ stalj@uek.krakow.pl
     print('The result of summation: ', result)
     ```
 
-1. Two variables x and y have values of 7 and 34. Write a program that swaps variable values (x should be 34 and y should be 7). Use an additional, auxiliary variable.
+3. Two variables x and y have values of 7 and 34. Write a program that swaps variable values (x should be 34 and y should be 7). Use an additional, auxiliary variable.
 
     > Hint: It is a good idea to always put a short description of the program in a comment at the beginning of the file. You can use the task text for this.
 
@@ -201,7 +201,7 @@ stalj@uek.krakow.pl
     print("After swapping: x=", x, "y=", y)
     ```
 
-1. Write a program that, for a given speed in km/h, prints the speed in m/s.
+4. Write a program that, for a given speed in km/h, prints the speed in m/s.
 
     ```python
     ###
@@ -214,7 +214,7 @@ stalj@uek.krakow.pl
     ```
 
 
-1. Write a program that calculates the length of the diagonal of a rectangle with sides a=5 and b=8. To calculate the square root of a given value, use the sqrt function. The function is available in a module called math, which you must import into your program.
+5. Write a program that calculates the length of the diagonal of a rectangle with sides a=5 and b=8. To calculate the square root of a given value, use the sqrt function. The function is available in a module called math, which you must import into your program.
 
     ```python
     ###
@@ -228,7 +228,7 @@ stalj@uek.krakow.pl
     print(...)
     ```
 
-1. The distance to the horizon depends on the height of the observer above the ground. The higher you are, the farther away the horizon is. For most situations, you can use the following formula:
+6. The distance to the horizon depends on the height of the observer above the ground. The higher you are, the farther away the horizon is. For most situations, you can use the following formula:
 
     d = 3.57 × √h
 
@@ -242,7 +242,7 @@ stalj@uek.krakow.pl
     1. You are standing on a beach, by the sea, on the water line (calculate the distance for your height in m). You have probably been to the seaside many times. Can you believe that the horizon is only a few kilometers away?
     1. You are looking out of a hotel window located by the sea, the window is at a height of 20 meters.
 
-1. In the year 2022, the world population was approximately 8 billion. The Northern Hemisphere has 7.2 billion people. Write a program that calculates and prints:
+7. In the year 2022, the world population was approximately 8 billion. The Northern Hemisphere has 7.2 billion people. Write a program that calculates and prints:
 
     1. The number of people and percentage of the total population living in the Northern Hemisphere
     1. The number of people and percentage of the total population living in the Southern Hemisphere
@@ -265,7 +265,7 @@ stalj@uek.krakow.pl
     ...
     ```
 
-1. The following program calculates and prints the average grade of a student, but it contains several errors. Fix the program so that it works correctly.
+8. The following program calculates and prints the average grade of a student, but it contains several errors. Fix the program so that it works correctly.
 
     ```python
     ###
@@ -351,7 +351,7 @@ stalj@uek.krakow.pl
     print(f'And your full name is ...')
     ```
 
-1. Take into account that whatever the user types on the keyboard is captured as a string. If you need a number for some arithmetic calculations, you have to convert the string of digits from the keyboard to a number using the int() function for integer numbers and float() function for real numbers. 
+2. Take into account that whatever the user types on the keyboard is captured as a string. If you need a number for some arithmetic calculations, you have to convert the string of digits from the keyboard to a number using the int() function for integer numbers and float() function for real numbers. 
 
     Complete the following program code. Then, check the program for the following data:
 
@@ -371,7 +371,7 @@ stalj@uek.krakow.pl
     print(f'The surface area of a cube with side ... is ...')
     ```
 
-1. Write a program that calculates the volume and surface area of ​​a cuboid with sides a, b, and c. Then, check the program for the following data:
+3. Write a program that calculates the volume and surface area of ​​a cuboid with sides a, b, and c. Then, check the program for the following data:
 
     a = 3, b = 4, c = 5 --> volume = 94, surface area = 60\
     a = 8, b = 1, c = 2 --> volume = 16, surface area = 52
@@ -388,14 +388,14 @@ stalj@uek.krakow.pl
     ...
     ```
 
-1. 23% VAT was paid from an amount. Write a program that reads an amount from the keyboard. Then, it calculates and prints both the amount and its VAT. Apply formatting with two decimal places. Sample result:
+4. 23% VAT was paid from an amount. Write a program that reads an amount from the keyboard. Then, it calculates and prints both the amount and its VAT. Apply formatting with two decimal places. Sample result:
 
     ```
     Amount  : 15.84
     VAT 23% :  3.64
     ```
 
-1. The price of the product on the price tag is given before and after the discount is applied. Write a program that allows you to enter the product price and discount. Print the product price, discount, discounted product price, and the difference between the product price before and after the discount. Print all prices with two decimal places. Sample result:
+5. The price of the product on the price tag is given before and after the discount is applied. Write a program that allows you to enter the product price and discount. Print the product price, discount, discounted product price, and the difference between the product price before and after the discount. Print all prices with two decimal places. Sample result:
 
     ```
     Enter price: 24.72
@@ -423,7 +423,7 @@ stalj@uek.krakow.pl
     print(f'Your full name has ...') # with a space between name and surname
     ```
 
-1. Characters in a string are numbered (indexed) starting from 0. This means that the first character in the string has index 0, the second character has index 1, the third character has index 2, and so on. This rule is used in many programming languages.
+2. Characters in a string are numbered (indexed) starting from 0. This means that the first character in the string has index 0, the second character has index 1, the third character has index 2, and so on. This rule is used in many programming languages.
 
     Modify the following program to print the initials of your name and surname, contained in the variables name and surname.
 
@@ -436,7 +436,7 @@ stalj@uek.krakow.pl
     print(name[0])
     ```
 
-1. Write a program that prints the abbreviation of the university name (i.e. KUE)
+3. Write a program that prints the abbreviation of the university name (i.e. KUE)
 
     ```python
     ###
@@ -447,7 +447,7 @@ stalj@uek.krakow.pl
     ...
     ```
 
-1. In Python, to read a range of characters from the string, a slicing method can be used.
+4. In Python, to read a range of characters from the string, a slicing method can be used.
 
     <https://www.w3schools.com/python/python_strings_slicing.asp>
 
@@ -470,7 +470,7 @@ stalj@uek.krakow.pl
     print(f'Initials: {...}')
     ```
 
-1. To improve readability, telephone numbers are often presented with a dash or space separating some digits. Write a program that prints a 9-digit telephone number entered from the keyboard as three groups of 3 digits each, separated by a dash character. Sample result:
+5. To improve readability, telephone numbers are often presented with a dash or space separating some digits. Write a program that prints a 9-digit telephone number entered from the keyboard as three groups of 3 digits each, separated by a dash character. Sample result:
 
     ```
     Enter phone number: 543097329
@@ -490,7 +490,7 @@ stalj@uek.krakow.pl
     ...
     ```
 
-1. In computer science, every written (graphic) character of human language (letters, digits, symbols, etc.) is encoded by assigning it a number. This allows characters to be stored, transmitted, and transformed using digital computers. To convert a character to its numerical representation, use the Python ord() function. 
+6. In computer science, every written (graphic) character of human language (letters, digits, symbols, etc.) is encoded by assigning it a number. This allows characters to be stored, transmitted, and transformed using digital computers. To convert a character to its numerical representation, use the Python ord() function. 
 
     Write a program to print numerical representations of the following characters:
 
@@ -507,7 +507,7 @@ stalj@uek.krakow.pl
     ```
 
 
-1. Write a program that prints a numerical representation of each letter of your name. Sample result:
+7. Write a program that prints a numerical representation of each letter of your name. Sample result:
 
     ```python
     ###
@@ -520,7 +520,7 @@ stalj@uek.krakow.pl
     ...
     ```
 
-1. Write a program that calculates how many letters are between two given letters. Then, using the program, calculate how many letters are between the letters:
+8. Write a program that calculates how many letters are between two given letters. Then, using the program, calculate how many letters are between the letters:
 
     * A and D (2 letters)
     * B and M (10 letters)
@@ -539,7 +539,7 @@ stalj@uek.krakow.pl
     print(f'Between {first} and {last} is ... letters')
     ```
 
-1. You can also check what character corresponds to the given code value. Use the available chr() function.
+9. You can also check what character corresponds to the given code value. Use the available chr() function.
 
     Write a program that allows you to check what word is hidden in the following character codes:
 
@@ -552,7 +552,7 @@ stalj@uek.krakow.pl
     print(chr(67),chr(111),...)
     ```
 
-1. Every programming language has a number of ready-to-use functions that you can use to manipulate strings. The most commonly used ones in Python can be found at:
+10. Every programming language has a number of ready-to-use functions that you can use to manipulate strings. The most commonly used ones in Python can be found at:
 
     <https://www.w3schools.com/python/python_ref_string.asp>
 
@@ -603,7 +603,7 @@ stalj@uek.krakow.pl
     print(f'Exemption from paying taxes: {no_tax}')
     ```
 
-1. The password is valid if it is at least 8 characters long. Write a program that checks whether the password length read from the keyboard is correct. Then, check if the program works correctly for the following passwords:
+2. The password is valid if it is at least 8 characters long. Write a program that checks whether the password length read from the keyboard is correct. Then, check if the program works correctly for the following passwords:
 
     university, peter123, (passwords ok)
     seven, anna333 (passwords to short)
