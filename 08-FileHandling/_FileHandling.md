@@ -81,7 +81,7 @@ stalj@uek.krakow.pl
    ```
 
 
-1. The file car_park.txt contains data on the number of parked cars for the last five days. Complete the following program to calculate the total number of parked cars.
+2. The file car_park.txt contains data on the number of parked cars for the last five days. Complete the following program to calculate the total number of parked cars.
 
    ```python
    ###
@@ -104,12 +104,12 @@ stalj@uek.krakow.pl
    print('Total cars parked:', ...)
    ```
 
-1. The file pets.txt contains humorous text about animals. Write a program that prints the text and counts the number of words in the text.
+3. The file pets.txt contains humorous text about animals. Write a program that prints the text and counts the number of words in the text.
 
    > To calculate the number of words in a line, use the split() method, which splits a string into a list where each word is a list item. Then read the length of this list. Use the len() function. Finally, sum the number of words in each line.\
    <https://www.w3schools.com/python/ref_string_split.asp>
 
-1. The file it_company.csv contains a list of employees. Write a program that displays only employees with the position "Software Engineer". Number the items on the printed list.
+4. The file it_company.csv contains a list of employees. Write a program that displays only employees with the position "Software Engineer". Number the items on the printed list.
 
    > Hint: You can check if a string is contained within another string using the 'in' operator.
 
@@ -165,7 +165,7 @@ stalj@uek.krakow.pl
    * Writing details: Uses the write() method to write each movie detail to the file, adding \n at the end of each line for formatting (move to next line).
    * Automatic file closing: The 'with' statement ensures the file is properly closed after writing.
 
-1. Write a program that writes a list of the Seven Wonders of the World to a text file, in alphabetical order, with each name on a separate line. Then, open the created file in the editor and check if its contents match the task.
+2. Write a program that writes a list of the Seven Wonders of the World to a text file, in alphabetical order, with each name on a separate line. Then, open the created file in the editor and check if its contents match the task.
 
    ```python
    ###
@@ -193,7 +193,7 @@ stalj@uek.krakow.pl
             ... .write(...)
    ```
 
-1. Write a program that copies the contents of the file 'healthy_lifestyle.txt' to the file copy_healthy_lifestyle.txt'.
+3. Write a program that copies the contents of the file 'healthy_lifestyle.txt' to the file copy_healthy_lifestyle.txt'.
 
    > Hint: Read the entire contents of the original file and write them to the target file (copy).
 
@@ -217,7 +217,7 @@ stalj@uek.krakow.pl
       ... .write(...)
    ```
 
-1. Write a program that saves data of employees employed in the position of 'Software Engineer' to the file 'software_engineer.txt'. Data is available in the file 'it_company.csv'.
+4. Write a program that saves data of employees employed in the position of 'Software Engineer' to the file 'software_engineer.txt'. Data is available in the file 'it_company.csv'.
 
    > Hint: Read employee data line by line. For each line, check if it contains the name of the indicated position. If so, write this line to the output file.
 
@@ -241,7 +241,7 @@ stalj@uek.krakow.pl
                ... .write(...)
    ```
 
-1. Write a program that allows you to create a shopping list. The program takes user input from the keyboard until the user enters 0. Each value taken is saved to a text file 'shopping_list.txt'.
+5. Write a program that allows you to create a shopping list. The program takes user input from the keyboard until the user enters 0. Each value taken is saved to a text file 'shopping_list.txt'.
 
    > Hint: Open the file in append mode using the 'a' (append) parameter in the open() function.
 
@@ -269,7 +269,7 @@ stalj@uek.krakow.pl
          add_...
    ```
 
-1. Na podstawie pliku txt, zapisz części zawartości do plików o nazwach*1, *2, itd.
+6. Na podstawie pliku txt, zapisz części zawartości do plików o nazwach*1, *2, itd.
 
 ## 3. Using Regular Expressions
 
@@ -385,9 +385,9 @@ stalj@uek.krakow.pl
 
    Next, see the contents of the program read_file_try_except.py, which opens and reads the contents of a file inside a try-except block. Finally, run the program. As you can see, even when an error occurs (attempting to open a nonexistent file), the program continues to run.
 
-1. Write a program that displays the first five lines from the it_company.csv file and then prints 'Press Enter key...' in the next line and waits for the Enter key to be pressed. The program repeats printing the next five lines from the file, waiting for the Enter key to be pressed each time.
+2. Write a program that displays the first five lines from the it_company.csv file and then prints 'Press Enter key...' in the next line and waits for the Enter key to be pressed. The program repeats printing the next five lines from the file, waiting for the Enter key to be pressed each time.
 
-1. The file email.txt contains a raw email. Write a program that uses regular expressions to fetch and print:
+3. The file email.txt contains a raw email. Write a program that uses regular expressions to fetch and print:
 
    * sender email address
    * recipient email address
