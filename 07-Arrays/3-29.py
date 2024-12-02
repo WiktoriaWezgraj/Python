@@ -1,19 +1,14 @@
-'''A two-dimensional array contains the following numbers:
+'''A function create_2d_arr(x,y) creates and returns two dimensional array with values of 0. Create a program and the function. 
+Then create a two-dimensional array with dimensions of 3 by 5. print the created array.'''
 
-7 3 7 9 0
-2 9 0 1 5
-3 8 6 4 7
-8 7 1 1 5
-Create a program that calculates the sum of values in the last column.'''
+def create_2d_arr(x,y):
+    arr = []
+    for i in range(x):
+        row = []
+        arr.append(row)
+        for j in range(y):
+            row.append(0)
 
-matrix = [
-[7, 3, 7, 9, 0],
-[2, 9, 0, 1, 5],
-[3, 8, 6, 4, 7],
-[8, 7, 1, 1, 5]
-]
+    return arr
 
-sum = 0
-for row in matrix:
-    sum += row[-1]
-print(sum)
+print(create_2d_arr(3,5))

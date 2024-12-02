@@ -5,7 +5,7 @@
    <https://www.w3schools.com/python/ref_string_split.asp>'''
 
 with open("pets.txt") as f:
-    content = f.read()
-    print(content)
+  content = f.read()
+
 len_of_words = len(content.split())
 print("wORD COUNT:", len_of_words)

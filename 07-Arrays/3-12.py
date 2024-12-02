@@ -8,5 +8,7 @@ arr = [2,3,2,5,8,1,9,8]
 
 for i in arr:
     if i in unique_elements:
-        print(i, end = " ")
-print(" ")
+        if i != len(arr)+1:
+            print(f'{i}-', end="")
+        else:
+            print(i)

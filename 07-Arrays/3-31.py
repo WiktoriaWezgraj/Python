@@ -9,8 +9,6 @@ smallest = arr[0][0]
 largest_position = (0, 0)
 smallest_position = (0, 0)
 for row_i, row in enumerate(arr):
-    arr2 = enumerate(arr)
-    print(arr2)
     for column_i, column in enumerate(row):
         if column> largest:
             largest = column

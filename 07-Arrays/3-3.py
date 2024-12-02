@@ -23,7 +23,7 @@ def array_power3tasksinone(arr):
             else:
                 count += 1
 
-    arr_rev = list(reversed(arr))
+    arr_rev = arr[::-1]
 
     for y in arr:
         arr2.append(y**2)

@@ -23,8 +23,8 @@ Smallest and largest number: 2,8
 Numbers as a string: 7-3-8-5-2'''
 
 def MyArrays(arr):
-    arr_sorted = sorted(arr)
-    second_largest = arr_sorted[-2]
+    arr_sorted = sorted(arr, reverse=True)
+    second_largest = arr_sorted[1]
 
     difference = arr_sorted[-1] - arr_sorted[0]
 

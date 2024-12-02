@@ -13,7 +13,13 @@ file_name = 'it_company.csv'
    # Position
 job_title = 'Software Engineer'
 
+arr = []
 with open(file_name) as f:
-    for line in f:
-        if job_title in line:
-            print(line)
+   for line in f:
+      if job_title in line:
+         line_split= line.strip().split(',')
+         person = f"{line_split[0]} {line_split[1]}"
+         arr.append(person)
+   for index, person in enumerate(arr, start=1):
+      print(f'{index}. {person}')
+         

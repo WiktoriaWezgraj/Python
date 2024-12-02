@@ -25,7 +25,7 @@ measurements = len(temperatures)
    # calculates average temperature
 temp_total = 0
 for temp in temperatures:
-    temp_total += temp
+   temp_total += temp
 avg_temp = temp_total / measurements
 
    # calculates min and max temperatures
@@ -33,12 +33,16 @@ min_temp = min(temperatures)
 max_temp = max(temperatures)
 
    # calculates number of days with negative temp
-negative_temp = 0 ################### TO NIE DZIALA
+negative_temp = 0 
 i = 0
-while i < negative_temp:
-    if temperatures[i] < 0:
-        negative_temp += 1
-    i += 1
+while i < len(temperatures):
+   if temperatures[i] < 0:
+      negative_temp += 1
+   i += 1
+
+# for i in temperatures:
+#    if i<0:
+#       negative_temp += 1
 
    # prints out month report
 print("TEMPERATURE REPORT")

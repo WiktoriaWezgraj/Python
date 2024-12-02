@@ -23,4 +23,4 @@ print(arr[len(arr)-1])
 print(arr[0]+arr[-1])
 print(arr[len(arr)//2])
 for i in arr:
-    print(i, end=" ")
+   print(i, end=" ")

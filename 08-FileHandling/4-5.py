@@ -11,3 +11,45 @@ email_recipient()
 email_subject()
 email_body()'''
 
+
+import re
+
+def email_sender(filename):
+    pattern = '([a-z]{3}\.[a-z]{8}@[a-z]{7}\.[a-z]{3})'
+    with open(filename) as f:
+        content = f.read()
+
+    info = re.findall(pattern, content)
+    
+    emails= list(set(info))
+    return emails[0]
+
+def email_recipient(filename):
+    pattern = '([a-z]{4}\.[a-z]{5}@[a-z]{7}\.[a-z]{3})'
+    with open(filename) as f:
+        content = f.read()
+
+    info = re.findall(pattern, content)
+    
+    emails= list(set(info))
+    return emails[0]
+
+def email_subject(filename):
+    pattern = '([A-z][a-z]{5}) ([a-z]{7})'
+    with open(filename) as f:
+        content = f.read()
+
+    info = re.findall(pattern, content)
+
+    return info
+
+def email_body(filename):
+    pattern = '(^I[A-Za-z\s\S]+\.$)'
+    with open(filename) as f:
+        content = f.read()
+
+    info = re.findall(pattern, content)
+
+    return info
+
+print(email_body('email.txt'))

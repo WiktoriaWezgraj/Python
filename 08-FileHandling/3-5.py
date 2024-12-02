@@ -21,7 +21,7 @@ password_pattern = '^[A-Za-z0-9_]{8,}$'
 # check if username and password are ok
 username_match = re.match(username_pattern,username)
 password_match = re.match(password_pattern, password)
-
+print(password_match)
 # print results
 if username_match and password_match:
    print('You logged in!')

@@ -10,7 +10,6 @@ with open('it_company.csv', 'r') as f:
     rows = []
     for row in reader:
         rows.append(row)
-##splitlines, readlines, sprawdzic
     total_rows = len(rows) 
     
     start = 0

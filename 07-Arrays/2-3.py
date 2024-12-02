@@ -19,26 +19,26 @@ for row in monthly_expenses:
 
 sum_t= 0
 for row in monthly_expenses:
-    sum_t += row[0]
+    sum_t += row[1]
 
 sum_u= 0
 for row in monthly_expenses:
-    sum_u += row[0]
+    sum_u += row[-1]
 
 sum1=0
 for i in monthly_expenses[0]:
     sum1 += i
 
 sum2=0
-for i in monthly_expenses[0]:
+for i in monthly_expenses[1]:
     sum2 += i
 
 sum3=0
-for i in monthly_expenses[0]:
+for i in monthly_expenses[2]:
     sum3 += i
 
 sum4=0
-for i in monthly_expenses[0]:
+for i in monthly_expenses[3]:
     sum4 += i
 
 total = 0

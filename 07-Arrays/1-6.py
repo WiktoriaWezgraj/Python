@@ -14,5 +14,5 @@ polish_license_plates = [
 counter = 1
 for car_number in polish_license_plates:
     if car_number[:2] == 'KK' or car_number[:2] == 'KR':
-        print(counter, car_number)
-        counter += 1
+      print(counter, car_number)
+      counter += 1
