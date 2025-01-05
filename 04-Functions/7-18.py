@@ -6,15 +6,15 @@
 
 def f(number):
     sum = 0
-    strink = ""
-    strink_repeated = ""
+    stri = ""
+    stri_repeated = ""
     for digit in str(number):
-        if digit not in strink:
-            strink+=digit
-        elif digit in strink:
-            strink_repeated += digit
-    strink_repeated += strink_repeated[0]
-    for num in strink_repeated:
+        if digit not in stri:
+            stri+=digit
+        elif digit in stri:
+            stri_repeated += digit
+    stri_repeated += stri_repeated[0]
+    for num in stri_repeated:
         sum += int(num)
     return sum
         
